@@ -1,0 +1,208 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.5rem;
+  color: #393d41;
+}
+/* HEADER */
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+header {
+  background-color: black;
+  padding: 3.1vh;
+}
+
+.logo {
+  width: 13%;
+  margin-left: 3em;
+}
+/* MAIN INIZIO */
+.start {
+  background-image: url("../images/banner.jpg");
+  padding: 2em 5em;
+  background-size: cover;
+  text-align: center;
+  height: 70vh;
+
+}
+
+.start-contenuto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin-bottom: 0.7em;
+}
+
+.start p {
+  margin-bottom: 0.5em;
+}
+
+.start button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: #f04c2f;
+  color: white;
+  border-radius: 10px;
+  padding: 1.5em 2em;
+  border: none;
+  margin: 1.5em;
+  font-size: 0.8em;
+}
+/* ARTICLE */
+
+article {
+    width: 100%;
+    overflow: hidden; 
+    margin: 3em 0;
+}
+
+.image-container {
+    width: 40%; 
+    float: left;
+    padding-left: 5%;
+
+}
+
+.image-container img {
+    width: 49%; 
+    border-radius: 50%; 
+    padding: 3em;
+    padding-left: 5em;
+ 
+}
+
+.contenuto {
+    width: 49%; 
+    float: left; 
+    padding-left: 2%;
+    font-size: 0.7em;
+}
+
+.contenuto div {
+    margin: 2em 0; 
+    text-align: left; 
+}
+
+/* MI SONO FERMATO QUI NELL'ESERCIZIO EXTRA (mi faceva male la testa) */
+
+/* ARTICLE FINE */
+/* SECTION FINALI */
+
+#garantisce {
+  background-color: #f04c2f;
+  color: white;
+  padding: 2.5em;
+  height: 30%;
+  margin-bottom: 4em;
+}
+
+#garantisce h2,
+#garantisce cite,
+#garantisce p {
+  margin: 0;
+  padding: 0;
+}
+
+#garantisce h2 {
+  font-size: 1.7em;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#garantisce cite {
+  margin-bottom: 1em;
+}
+
+#garantisce p {
+  margin: 0;
+}
+
+#garantisce p:first-of-type {
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
+
+#garantisce p:nth-of-type(2) {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.learn div {
+    margin: 1.5em;
+    border: 1px solid #dee1e3;
+    border-radius: 0 0 5px 5px;
+    height: 58%;
+}
+
+.learn img {
+    width: 100%;
+}
+
+.learn h3, p {
+    margin: 0.7em;
+}
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    height: 50vh;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1em 0 0.5em;
+    color: white;
+}
+
+footer p, a {
+    color: #c8e7f0;
+}
+
+i {
+    background-color: white;
+    color: #25a2c3;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+#freccia {
+    background-color: white;
+    color: #25a2c3;
+    font-size: 15px;
+    padding: 1.5px;
+    border-radius: 2px;
+    margin: 2px;
+    font-weight: bolder;
+}
+
+.copy {
+    margin: 1.5em 7.3em;
+    padding: 1.5em 0;
+    font-size: 0.9em;
+    border-top: white solid 1px;
+}
